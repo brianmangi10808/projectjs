@@ -1,3 +1,24 @@
-h1{
-    text-align: center;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    box-shadow: 3rem;
+    background: lawngreen;
+    width: 70%;
+    height: 300px;
+    border: 2px;
+}
+.card input{
+    display: none;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;;
+    border-radius: 50%;
 }
